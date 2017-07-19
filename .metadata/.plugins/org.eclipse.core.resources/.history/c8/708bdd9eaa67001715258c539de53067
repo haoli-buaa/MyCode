@@ -1,0 +1,17 @@
+package Thread;
+
+public class Web12306 implements Runnable{
+	int total = 50;
+	@Override
+	public void run() {
+		while(total > 0){
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.printf("恭喜%s抢票成功，剩余票数：%d\n",Thread.currentThread().getName(),--total);
+		}
+	}
+}

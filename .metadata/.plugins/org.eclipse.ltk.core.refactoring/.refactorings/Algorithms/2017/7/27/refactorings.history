@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;Algorithms/src&apos; to &apos;MergeSort&apos;&#x0A;- Original project: &apos;Algorithms&apos;&#x0A;- Original element: &apos;Algorithms/src&apos;&#x0A;- Renamed element: &apos;src&apos;" description="Rename source folder &apos;src&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/src" name="MergeSort" stamp="1499259984465" version="1.0"/>
+</session>

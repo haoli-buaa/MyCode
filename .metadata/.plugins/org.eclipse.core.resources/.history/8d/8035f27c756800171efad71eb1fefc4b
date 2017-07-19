@@ -1,0 +1,15 @@
+package Thread;
+
+public class AppleStore {
+	int value = 0;
+	public void sell(){
+		System.out.printf("销售成功，库存：%d\n",--value);
+	}
+	public void produce(){
+		System.out.printf("生产成功，库存：%d\n" args);
+	}
+}
+class Seller implements Runnable{
+	AppleStore as = null;
+	
+}

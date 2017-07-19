@@ -1,0 +1,25 @@
+package Thread;
+
+public class MySingleton implements Runnable {
+	private static MySingleton instance = null;
+	private MySingleton(){
+		
+	}
+	public static MySingleton getInstance() throws InterruptedException{
+		Thread.sleep(1000);
+		if(null == instance){
+			instance = new MySingleton();
+		}
+		return instance;
+	}	
+	@Override
+	public void run() {
+		
+		
+	}
+	public static void main(String[] args){
+		MySingleton ms = new MySingleton();
+		MySingleton ms2 = new MySingleton();
+		System.out.println(ms == ms2);
+	}
+}

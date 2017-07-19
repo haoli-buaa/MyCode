@@ -1,0 +1,10 @@
+package Thread;
+
+public class Web12306 implements Runnable{
+	int total = 1000;
+	@Override
+	public void run() {
+		while(total > 0)
+			System.out.printf("恭喜%s抢票成功，剩余票数：%d\n",Thread.currentThread().getName(),--total);
+	}
+}

@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="ContainsDuplicateII"/>
 	<classpathentry kind="src" path="ContainsDuplicateIII"/>
 	<classpathentry kind="src" path="LongestSubstringWIthoutRepeatingCharacters"/>
+	<classpathentry kind="src" path="MedianOfTwoSortedArrays"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

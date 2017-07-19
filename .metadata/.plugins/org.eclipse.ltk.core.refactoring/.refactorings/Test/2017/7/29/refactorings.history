@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 source folders to &apos;PDD&apos;&#x0A;- Original project: &apos;Test&apos;&#x0A;- Destination element: &apos;PDD&apos;&#x0A;- Original elements:&#x0A;     Test/pdd&#x0A;     Test/src&#x0A;- Update references to refactored element" description="Move source folders" destination="=PDD" element1="/pdd" element2="/src" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="2" stamp="1500451567768" version="1.0"/>
+</session>

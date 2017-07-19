@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="Thread"/>
 	<classpathentry kind="src" path="Pool"/>
+	<classpathentry kind="src" path="Collections"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

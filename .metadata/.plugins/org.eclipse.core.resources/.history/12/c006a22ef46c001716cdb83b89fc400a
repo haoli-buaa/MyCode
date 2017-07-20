@@ -1,0 +1,13 @@
+package com.google.code.guava;
+
+import java.util.*;
+
+public class Immutable {
+	public static void main(String[] args) {
+		// java核心类库中的集合类，只读实际可更改
+		List<String> list = new ArrayList<String>();
+		list.add("a");
+		List<String> rOnly = Collections.unmodifiableList(list);
+		rOnly.add("b");
+	}
+}

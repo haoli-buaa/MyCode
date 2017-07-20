@@ -1,0 +1,9 @@
+package com.google.code.guava;
+import java.util.*;
+public class Immutable {
+	//java核心类库中的集合类，只读实际可更改
+	List<String> list = new ArrayList<String>();
+	list.add("acb");
+	//List<String> rOnly = Collections.unmodifiableList(lst);
+	
+}

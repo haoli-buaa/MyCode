@@ -3,6 +3,12 @@
 	<classpathentry kind="src" path="Thread"/>
 	<classpathentry kind="src" path="Pool"/>
 	<classpathentry kind="src" path="Collections"/>
+	<classpathentry kind="src" path="guava"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/media/li/WD/guava/guava-22.0.jar" sourcepath="/media/li/WD/guava/guava-22.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/li/下载/guava-22.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

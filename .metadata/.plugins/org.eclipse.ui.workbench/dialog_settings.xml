@@ -14,4 +14,6 @@
 			<item value="org.eclipse.pde.userAssistance"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

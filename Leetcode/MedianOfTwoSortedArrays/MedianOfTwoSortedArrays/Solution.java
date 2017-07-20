@@ -37,6 +37,7 @@ public class Solution {
     		s2 = b[0];
     		len2 = b[1];
     	}
+    	return 0.0;
     }
     int[] updateLength(int[] nums, int start, int len){
     	int[] res = new int[2];

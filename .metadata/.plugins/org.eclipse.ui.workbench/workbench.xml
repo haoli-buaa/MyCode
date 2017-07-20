@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="732" maximized="true" width="1026" x="141" y="65">
 <fastViewData fastViewLocation="1024"/>
@@ -13,7 +13,7 @@
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
@@ -38,13 +38,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestProperty.java" partName="TestProperty.java" path="/home/li/workspace/Java/Collections/Property/TestProperty.java" title="TestProperty.java" tooltip="Java/Collections/Property/TestProperty.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java/Collections/Property/TestProperty.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="529" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utility.java" partName="Utility.java" path="/home/li/workspace/Java/guava/com/google/code/guava/Utility.java" title="Utility.java" tooltip="Java/guava/com/google/code/guava/Utility.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java/guava/com/google/code/guava/Utility.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2336" selectionTopPixel="903"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestRef.java" partName="TestRef.java" path="/home/li/workspace/Java/Collections/References/TestRef.java" title="TestRef.java" tooltip="Java/Collections/References/TestRef.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java/Collections/References/TestRef.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="178" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Table.class" partName="Table.class" path="/tmp/Table.class5233272211637850728.class" title="Table.class" tooltip="com.google.common.collect.Table" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Table.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="2363" selectionTopPixel="261"/>
 </editor>
 </editors>
 <views>
@@ -85,10 +85,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (7 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="358" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -98,6 +94,9 @@
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
@@ -123,9 +122,6 @@
 </view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
 </view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
@@ -277,7 +273,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18544437" ratioLeft="265" ratioRight="1164" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7482993" ratioLeft="550" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.6068027" ratioLeft="446" ratioRight="289" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -286,6 +282,7 @@
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.callhierarchy.view" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -366,7 +363,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7482993" ratioLeft="550" ratioRight="185" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6489796" ratioLeft="477" ratioRight="258" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -411,164 +408,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/Collections/Property/TestProperty.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(Properties.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(Writer.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(OutputStreamWriter.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(OutputStream.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(FileWriter.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Java/config.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/Collections/References/TestRef.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/guava/com/google/code/guava/Utility.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(HashMultiset.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multimap.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Table.class"/>
 </editors>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="164" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1865" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="Multimap.class" index="2">
+<position info="not_deleted" x="6859" y="8"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1865" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="328" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1456" y="33"/>
 </item>
-<item historyLabel="Writer.class" index="2">
-<position info="not_deleted" x="1854" y="6"/>
+<item historyLabel="Multimap.class" index="2">
+<position info="not_deleted" x="6859" y="8"/>
 </item>
-<item historyLabel="Properties.class" index="1">
-<position info="not_deleted" x="31654" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1456" y="33"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="334" y="6"/>
+<item historyLabel="HashMultiset.class" index="1">
+<position info="not_deleted" x="1072" y="12"/>
 </item>
-<item historyLabel="Writer.class" index="2">
-<position info="not_deleted" x="1654" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1456" y="33"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3212" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1514" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="475" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1547" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3212" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1546" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3678" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1580" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="4127" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1675" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="5108" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1733" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="4624" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1865" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="4127" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1806" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3678" y="18"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1805" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="333" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1804" y="0"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1740" y="0"/>
 </item>
-<item historyLabel="OutputStream.class" index="4">
-<position info="not_deleted" x="1875" y="12"/>
+<item historyLabel="HashMultiset.class" index="1">
+<position info="not_deleted" x="1072" y="12"/>
 </item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
-</item>
-<item historyLabel="OutputStream.class" index="4">
-<position info="not_deleted" x="1875" y="12"/>
-</item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
-</item>
-<item historyLabel="OutputStream.class" index="4">
-<position info="not_deleted" x="1875" y="12"/>
-</item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
-</item>
-<item historyLabel="Writer.class" index="2">
-<position info="not_deleted" x="1684" y="0"/>
-</item>
-<item historyLabel="FileWriter.class" index="5">
-<position info="not_deleted" x="2413" y="148"/>
-</item>
-<item historyLabel="Writer.class" index="2">
-<position info="not_deleted" x="1684" y="0"/>
-</item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
-</item>
-<item historyLabel="OutputStream.class" index="4">
-<position info="not_deleted" x="1875" y="12"/>
-</item>
-<item historyLabel="OutputStreamWriter.class" index="3">
-<position info="not_deleted" x="3707" y="0"/>
-</item>
-<item historyLabel="Properties.class" index="1">
-<position info="not_deleted" x="31654" y="0"/>
-</item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="476" y="0"/>
-</item>
-<item historyLabel="config.properties" index="6">
+<item historyLabel="Utility.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1989" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="420" y="0"/>
+<item historyLabel="Table.class" index="3">
+<position info="not_deleted" x="2363" y="5"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="419" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="1989" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="470" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2414" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2075" y="0"/>
 </item>
-<item historyLabel="Properties.class" index="1">
-<position info="not_deleted" x="31654" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2062" y="0"/>
 </item>
-<item historyLabel="TestProperty.java" index="0">
-<position info="not_deleted" x="529" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2075" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2080" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="119" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2074" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="113" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2080" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="143" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2414" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="202" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2093" y="1"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="230" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2110" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="262" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2137" y="0"/>
 </item>
-<item historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="292" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2151" y="0"/>
 </item>
-<item active="true" historyLabel="TestRef.java" index="7">
-<position info="not_deleted" x="350" y="0"/>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2414" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2172" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2210" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2308" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2282" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2281" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2335" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2383" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2379" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2377" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2382" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2410" y="0"/>
+</item>
+<item historyLabel="Utility.java" index="0">
+<position info="not_deleted" x="2239" y="45"/>
+</item>
+<item active="true" historyLabel="Utility.java" index="0">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -594,50 +587,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestRef.java" tooltip="Java/Collections/References/TestRef.java">
-<persistable path="/Java/Collections/References/TestRef.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Table.class" tooltip="com.google.common.collect.Table">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Table.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestProperty.java" tooltip="Java/Collections/Property/TestProperty.java">
-<persistable path="/Java/Collections/Property/TestProperty.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utility.java" tooltip="Java/guava/com/google/code/guava/Utility.java">
+<persistable path="/Java/guava/com/google/code/guava/Utility.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="config.properties" tooltip="Java/config.properties">
-<persistable path="/Java/config.properties"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multimap.class" tooltip="com.google.common.collect.Multimap">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multimap.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileWriter.class" tooltip="java.io.FileWriter">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(FileWriter.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multiset.class" tooltip="com.google.common.collect.Multiset">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multiset.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="OutputStream.class" tooltip="java.io.OutputStream">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(OutputStream.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HashMultiset.class" tooltip="com.google.common.collect.HashMultiset">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(HashMultiset.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="OutputStreamWriter.class" tooltip="java.io.OutputStreamWriter">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(OutputStreamWriter.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Writer.class" tooltip="java.io.Writer">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(Writer.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Properties.class" tooltip="java.util.Properties">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(Properties.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="File.class" tooltip="java.io.File">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(File.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringEqualTest.java" tooltip="Java/Pool/Pool/StringEqualTest.java">
-<persistable path="/Java/Pool/Pool/StringEqualTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ValidParentheses.java" tooltip="Test/pdd/pdd/ValidParentheses.java">
-<persistable path="/Test/pdd/pdd/ValidParentheses.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetMost1s.java" tooltip="Test/pdd/pdd/GetMost1s.java">
-<persistable path="/Test/pdd/pdd/GetMost1s.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multisets.class" tooltip="com.google.common.collect.Multisets">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multisets.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="Leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays/Solution.java">
 <persistable path="/Leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays/Solution.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution2.java" tooltip="FirstUniqueCharacter/src/Solution2.java">
-<persistable path="/FirstUniqueCharacter/src/Solution2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="google-guava/guava/guava/src/com/google/common/base/Function.java">
+<persistable path="/google-guava/guava/guava/src/com/google/common/base/Function.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="FirstUniqueCharacter/src/Solution.java">
-<persistable path="/FirstUniqueCharacter/src/Solution.java"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="/media/li/WD/google-guava/guava/guava/src/com/google/common/base/Function.java">
+<persistable uri="file:/media/li/WD/google-guava/guava/guava/src/com/google/common/base/Function.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CollectPreconditions.class" tooltip="com.google.common.collect.CollectPreconditions">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(CollectPreconditions.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Sets.class" tooltip="com.google.common.collect.Sets">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Sets.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Lists.class" tooltip="com.google.common.collect.Lists">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Lists.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Collections2.class" tooltip="com.google.common.collect.Collections2">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Collections2.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Function.class" tooltip="com.google.common.base.Function">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.base(Function.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Predicate.class" tooltip="com.google.common.base.Predicate">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.base(Predicate.class"/>
 </file>
 </mruList>
 </workbench>

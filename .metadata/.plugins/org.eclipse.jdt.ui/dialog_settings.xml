@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="0" key="CallHierarchyViewPart.call_mode"/>
 	<item value="2" key="CallHierarchyViewPart.field_mode"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
-	<item value="3" key="CallHierarchyViewPart.orientation"/>
 	<item value="500" key="CallHierarchyViewPart.ratio1"/>
 	<item value="1" key="SearchScopeActionGroup.search_scope_type"/>
-	<item value="0" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<item value="java-8-openjdk-amd64" key="org.eclipse.jdt.ui.last.selected.project.jre"/>
 	<item value="500" key="CallHierarchyViewPart.ratio3"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="0" key="CallHierarchyViewPart.call_mode"/>
+	<item value="3" key="CallHierarchyViewPart.orientation"/>
+	<item value="/media/li/WD/google-guava" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="0" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<list key="SearchScopeActionGroup.working_set">
 	</list>
 	<section name="SearchInDialog">
@@ -58,11 +59,11 @@
 		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
-		<item value="673" key="DIALOG_WIDTH"/>
+		<item value="693" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="648" key="DIALOG_HEIGHT"/>
-		<item value="394" key="DIALOG_X_ORIGIN"/>
-		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="668" key="DIALOG_HEIGHT"/>
+		<item value="334" key="DIALOG_X_ORIGIN"/>
+		<item value="52" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
 		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
@@ -82,6 +83,8 @@
 		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="BreadcrumbItemDropDown">
 	</section>
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>

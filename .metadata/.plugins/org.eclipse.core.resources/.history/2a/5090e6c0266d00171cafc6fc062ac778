@@ -1,0 +1,28 @@
+package com.google.code.guava;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
+
+public class Utility {
+	public static void main(String[] args){
+		//Multiset方法：允许键重复的set
+		//可应用场景：统计
+		//case: 单词出现次数统计
+		String str = "Guava is a set of core libraries that includes new collection types (such as multimap and multiset), immutable collections, a graph library, functional types, an in-memory cache, and APIs/utilities for concurrency, I/O, hashing, primitives, reflection, string processing, and much more!";
+		Multiset<String> mset = HashMultiset.create();
+		Set<String> set = new HashSet<String>();
+		//String regex = "[^A-Za-z]+";
+		String regex = "[ \(]+";
+		String[] words = str.split(regex);
+		for(int i = 0; i < words.length; i++){
+			mset.add(words[i]);
+			set.add(words[i]);
+		}
+		for(String tmp : set){
+			System.out.printf("%s:%d\n", tmp, mset.count(tmp));
+		}		
+	}
+}

@@ -1,0 +1,46 @@
+package com.google.code.guava;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.google.common.collect.HashMultimap;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.Multiset;
+
+public class Utility {
+	public static void main(String[] args){
+		//Multiset类：允许键重复的set
+		//可应用场景：统计
+		//case: 单词出现次数统计
+		String str = "Guava is a set of core libraries that includes new collection types (such as multimap and multiset), immutable collections, a graph library, functional types, an in-memory cache, and APIs/utilities for concurrency, I/O, hashing, primitives, reflection, string processing, and much more!";
+		Multiset<String> mset = HashMultiset.create();
+		Set<String> set = new HashSet<String>();
+		//String regex = "[^A-Za-z]+";
+		String regex = "[ (/!,.-]+";
+		String[] words = str.split(regex);
+		for(int i = 0; i < words.length; i++){
+			mset.add(words[i]);
+			set.add(words[i]);
+		}
+		for(String tmp : set){
+			System.out.printf("%s:%d\n", tmp, mset.count(tmp));
+		}
+		//Multimap类：允许键重复的map
+		//应用场景：一对多关系
+		//case：存储三国时
+		Multimap<String,String> mmap = HashMultimap.create();
+		mmap.put("刘备", "关羽");
+		mmap.put("刘备", "张飞");	
+		mmap.put("曹操", "夏侯渊");
+		mmap.put("曹操", "曹进");
+		mmap.put("曹操", "郭嘉");
+		mmap.put("曹操", "荀彧");
+		mmap.put("吕布", "张辽");
+		mmap.put("吕布", "陈宫");
+		Set<String> lord = mmap.keySet();
+		for(String name : lord){
+			System.out.printf("%s:%s\n", name, mmap.get(name).toString());
+		}
+	}
+}

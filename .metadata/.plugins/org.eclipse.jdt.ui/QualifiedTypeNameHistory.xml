@@ -9,12 +9,10 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Collections2"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="com.google.common.base.Predicate"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="com.google.common.base.Function"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
@@ -29,4 +27,10 @@
 <fullyQualifiedTypeName name="com.google.common.collect.HashBiMap"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Table"/>
 <fullyQualifiedTypeName name="com.google.common.collect.HashBasedTable"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

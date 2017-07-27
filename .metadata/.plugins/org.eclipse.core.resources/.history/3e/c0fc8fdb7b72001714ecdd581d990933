@@ -1,0 +1,16 @@
+package cn.edu.buaa.haoli.OOM;
+
+import java.util.ArrayList;
+
+public class HeapOOM {
+	static class OOMobject{
+		
+	}
+	public static void main(String[] args){
+		new Object();
+		ArrayList<OOMobject> list = new ArrayList<OOMobject>();
+		while(true){
+			list.add(new OOMobject());
+		}
+	}
+}

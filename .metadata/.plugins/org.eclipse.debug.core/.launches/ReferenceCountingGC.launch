@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Java/JVM/cn/buaa/edu/haoli/gcma/ReferenceCountingGC.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="cn.buaa.edu.haoli.gcma.ReferenceCountingGC"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -XX:+PrintGCDetails -XX:+PrintHeapAtGC"/>
+</launchConfiguration>

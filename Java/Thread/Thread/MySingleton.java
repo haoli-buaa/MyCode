@@ -8,7 +8,7 @@ public class MySingleton{
 	private MySingleton(){
 		
 	}
-	public synchronized static MySingleton getInstance(){
+	public static MySingleton getInstance(){
 		if(null == instance){
 			synchronized(MySingleton.class){
 				if(null == instance)
@@ -23,11 +23,8 @@ public class MySingleton{
  * Runtime使用了饿汉式单例设计模式
  */
 class MySingle{
-	static class InnerMS{
-		static MySingle single;
-		InnerMS(){
-			single = new MySingle();
-		}
+	private static class InnerMS{
+		private static MySingle single = new MySingle();
 	}
 	private MySingle(){
 		;

@@ -1,0 +1,22 @@
+package cn.edu.buaa.haoli.udp;
+
+import java.net.DatagramSocket;
+import java.util.Scanner;
+
+public class Sender implements Runnable{
+	private final static String eof = "\:\Q";
+	private DatagramSocket dsocket;
+	public Sender(DatagramSocket ds){
+		this.dsocket = ds;
+	}
+	@Override
+	public void run() {
+		//交互式获取数据
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNextLine()){
+			String tmp = sc.nextLine();
+			if(sc.equals(obj))
+		}
+	}
+
+}

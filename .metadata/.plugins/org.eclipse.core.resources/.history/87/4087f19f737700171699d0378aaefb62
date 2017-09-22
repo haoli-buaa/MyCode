@@ -1,7 +1,0 @@
-package cn.edu.buaa.haoli.udp;
-
-public class MyServer {
-	public static void main(String[] args){
-		
-	}
-}

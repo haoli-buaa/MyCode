@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="guava"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="JVM"/>
+	<classpathentry kind="src" path="DesignPattern"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/media/li/WD/guava/guava-22.0.jar" sourcepath="/media/li/WD/guava/guava-22.0-sources.jar">
 		<attributes>

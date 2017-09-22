@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="732" maximized="true" width="1026" x="141" y="65">
 <fastViewData fastViewLocation="1024"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="316" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -27,20 +27,25 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1498533236503" focus="true" label="Workspace - Debug">
+<page aggregateWorkingSetId="Aggregate for window 1498533236503" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeapOOM.java" partName="HeapOOM.java" path="/home/li/workspace/Java/JVM/cn/edu/buaa/haoli/OOM/HeapOOM.java" title="HeapOOM.java" tooltip="Java/JVM/cn/edu/buaa/haoli/OOM/HeapOOM.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java/JVM/cn/edu/buaa/haoli/OOM/HeapOOM.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="47" selectionOffset="168" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestString.java" partName="TestString.java" path="/home/li/workspace/Java/src/TestString.java" title="TestString.java" tooltip="Java/src/TestString.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java/src/TestString.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="449" selectionTopPixel="117"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Print1toN.java" partName="Print1toN.java" path="/home/li/workspace/Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java" title="Print1toN.java" tooltip="Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="404" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -81,6 +86,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (19 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="358" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -96,7 +104,7 @@
 <viewState/>
 </view>
 <view id="org.eclipse.help.ui.HelpView" partName="Help">
-<viewState activeSet="Default" expression="memory analyzer" pageId="fsearch-page"/>
+<viewState activeSet="Default" expression="Memory Analyzer" pageId="fsearch-page"/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
 <viewState/>
@@ -126,7 +134,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -243,12 +251,13 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.help.ui.HelpView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -264,15 +273,20 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1023" ratioRight="341" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7417775" ratioLeft="1060" ratioRight="369" relationship="2" relative="left">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.help.ui.HelpView" label="Help"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.17354794" ratioLeft="248" ratioRight="1181" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6068027" ratioLeft="446" ratioRight="289" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7047619" ratioLeft="518" ratioRight="217" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -291,13 +305,10 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.7497556" ratioLeft="767" ratioRight="256" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -366,7 +377,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6489796" ratioLeft="477" ratioRight="258" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.77823126" ratioLeft="572" ratioRight="163" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -411,163 +422,157 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/guava/com/google/code/guava/Utility.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/src/cn/edu/buaa/haoli/IO/CopyDirectory.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(InputStream.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(FileOutputStream.class"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/li/图片"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/JVM/cn/edu/buaa/haoli/heapOOM/HeapOOM.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java/JVM/cn/edu/buaa/haoli/OOM/HeapOOM.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java"/>
 </editors>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="517" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="575" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="772" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="512" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="518" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="830" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="946" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="709" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="938" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1025" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1053" y="0"/>
+</item>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1059" y="0"/>
+</item>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1080" y="0"/>
+</item>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1144" y="0"/>
+</item>
+<item historyLabel="Print1toN.java" index="0">
 <position info="not_deleted" x="1122" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1174" y="0"/>
 </item>
-<item historyLabel="InputStream.class" index="2">
-<position info="not_deleted" x="5249" y="350"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1180" y="0"/>
 </item>
-<item historyLabel="Utility.java" index="0">
-<position info="not_deleted" x="2336" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1235" y="0"/>
 </item>
-<item historyLabel="InputStream.class" index="2">
-<position info="not_deleted" x="5249" y="350"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1227" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
 </item>
-<item historyLabel="InputStream.class" index="2">
-<position info="not_deleted" x="5249" y="350"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1327" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="816" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1319" y="0"/>
 </item>
-<item historyLabel="FileOutputStream.class" index="3">
-<position info="not_deleted" x="6989" y="16"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1326" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="1029" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1385" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="919" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1422" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="943" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1421" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="657" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="861" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="333" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1477" y="0"/>
 </item>
-<item historyLabel="图片" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1586" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="322" y="1"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1527" y="0"/>
 </item>
-<item historyLabel="图片" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1548" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="322" y="1"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1539" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="239" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="1547" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="311" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="124" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="434" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="118" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="466" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="247" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="536" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="599" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="241" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="624" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="140" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="718" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="284" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="434" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="466" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="593" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="536" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="599" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="663" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="659" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="637" y="0"/>
 </item>
-<item historyLabel="CopyDirectory.java" index="1">
-<position info="not_deleted" x="531" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="图片" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="715" y="0"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="732" y="0"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="745" y="0"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="769" y="0"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="895" y="0"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
+<item historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="358" y="32"/>
 </item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
-</item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
-</item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
-</item>
-<item historyLabel="HeapOOM.java" index="5">
-<position/>
-</item>
-<item historyLabel="HeapOOM.java" index="6">
-<position info="not_deleted" x="29" y="0"/>
-</item>
-<item active="true" historyLabel="HeapOOM.java" index="6">
-<position/>
+<item active="true" historyLabel="Print1toN.java" index="0">
+<position info="not_deleted" x="718" y="34"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -586,47 +591,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="图片" tooltip="/home/li/图片">
-<persistable uri="file:/home/li/图片"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Print1toN.java" tooltip="Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java">
+<persistable path="/Nowcoder/1-10/cn/edu/buaa/haoli/offer/Print1toN.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileOutputStream.class" tooltip="java.io.FileOutputStream">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(FileOutputStream.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestString.java" tooltip="Java/src/TestString.java">
+<persistable path="/Java/src/TestString.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InputStream.class" tooltip="java.io.InputStream">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(InputStream.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Integer.class" tooltip="java.lang.Integer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Leetcode/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Integer.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyDirectory.java" tooltip="Java/src/cn/edu/buaa/haoli/IO/CopyDirectory.java">
-<persistable path="/Java/src/cn/edu/buaa/haoli/IO/CopyDirectory.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="Leetcode/ContainsDuplicateII/ContainsDuplicateII/Solution.java">
+<persistable path="/Leetcode/ContainsDuplicateII/ContainsDuplicateII/Solution.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Table.class" tooltip="com.google.common.collect.Table">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Table.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="Nowcoder/Sum_Solution/Sum_Solution/Solution.java">
+<persistable path="/Nowcoder/Sum_Solution/Sum_Solution/Solution.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utility.java" tooltip="Java/guava/com/google/code/guava/Utility.java">
-<persistable path="/Java/guava/com/google/code/guava/Utility.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyQueue.java" tooltip="Nowcoder/1-10/seven/MyQueue.java">
+<persistable path="/Nowcoder/1-10/seven/MyQueue.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multimap.class" tooltip="com.google.common.collect.Multimap">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multimap.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StringBuilder.class" tooltip="java.lang.StringBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(StringBuilder.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multiset.class" tooltip="com.google.common.collect.Multiset">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multiset.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyStack.java" tooltip="Nowcoder/1-10/seven/MyStack.java">
+<persistable path="/Nowcoder/1-10/seven/MyStack.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HashMultiset.class" tooltip="com.google.common.collect.HashMultiset">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(HashMultiset.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Multisets.class" tooltip="com.google.common.collect.Multisets">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(Multisets.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestRef.java" tooltip="Java/Collections/References/TestRef.java">
+<persistable path="/Java/Collections/References/TestRef.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="Leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays/Solution.java">
-<persistable path="/Leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays/Solution.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Leetcode/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="google-guava/guava/guava/src/com/google/common/base/Function.java">
-<persistable path="/google-guava/guava/guava/src/com/google/common/base/Function.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Solution.java" tooltip="Leetcode/findRepeatedDnaSequences/findRepeatedDnaSequences/Solution.java">
+<persistable path="/Leetcode/findRepeatedDnaSequences/findRepeatedDnaSequences/Solution.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Function.java" tooltip="/media/li/WD/google-guava/guava/guava/src/com/google/common/base/Function.java">
-<persistable uri="file:/media/li/WD/google-guava/guava/guava/src/com/google/common/base/Function.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestProperty.java" tooltip="Java/Collections/Property/TestProperty.java">
+<persistable path="/Java/Collections/Property/TestProperty.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CollectPreconditions.class" tooltip="com.google.common.collect.CollectPreconditions">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Java/\/media\/li\/WD\/guava\/guava-22.0.jar&lt;com.google.common.collect(CollectPreconditions.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConcreteDecoratorA.java" tooltip="Java/DesignPattern/cn/edu/buaa/haoli/decorator/ConcreteDecoratorA.java">
+<persistable path="/Java/DesignPattern/cn/edu/buaa/haoli/decorator/ConcreteDecoratorA.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Decorator.java" tooltip="Java/DesignPattern/cn/edu/buaa/haoli/decorator/Decorator.java">
+<persistable path="/Java/DesignPattern/cn/edu/buaa/haoli/decorator/Decorator.java"/>
 </file>
 </mruList>
 </workbench>

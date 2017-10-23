@@ -1,0 +1,39 @@
+package cn.edu.buaa.nlsde.haoli;
+
+import java.util.Scanner;
+
+public class ZerosInFactorial {
+
+	public static int getZeros(int n){
+		int[] factor = new int[2];
+		for(int i = 1; i <= n; i++){
+			int x = i;
+			while(x%5 == 0){
+				factor[1]++;
+				x /= 5;
+			}
+			while((x&1) != 1){
+				factor[0]++;
+				x = x>>1;		
+			}
+		}
+		return Math.min(factor[0], factor[1]);
+	}
+	public static long factorial(int n){
+		long res = 1L;
+		for(int i = 1; i <= n; i++){
+			res *= n;
+		}
+		return res;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()){
+			int n = sc.nextInt();
+			System.out.println(factorial(n));
+			System.out.println(getZeros(n));
+		}
+	}
+
+}

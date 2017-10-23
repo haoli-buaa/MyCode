@@ -54,4 +54,13 @@ class Node{
 		this(value);
 		this.next = next;
 	}		
+	static Node buildLinkedList(int[] a){
+		Node fhead = new Node();
+		Node cur = fhead;
+		for(int i = 0; i < a.length; i++){
+			cur.next = new Node(a[i]);
+			cur = cur.next;
+		}
+		return fhead;
+	}
 }

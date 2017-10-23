@@ -1,0 +1,28 @@
+package cn.edu.buaa.nlsde.haoli;
+
+public class MoreThanHalfNumber {
+
+	public static int findMTHN(int[] a){
+		int count = 0;
+		int res = 0;
+		for(int i = 0; i < a.length; i++){
+			if(count == 0){
+				res = a[i];
+				count = 1;
+			}
+			else{
+				if(a[i] == res)
+					count++;
+				else
+					count--;
+			}
+		}
+		return res;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

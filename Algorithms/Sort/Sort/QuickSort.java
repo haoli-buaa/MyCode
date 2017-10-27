@@ -1,4 +1,5 @@
 package Sort;
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -34,6 +35,11 @@ public class QuickSort {
 		qsort(a, p+1, r);
 	}
 	public static int partition(int[] a, int l, int r){
+		//randomized
+		double rand = Math.random();
+		int index = (int)(l+(l-r)*rand);
+		swap(a, index, r);
+		
 		int x = a[r];
 		int i = l-1;
 		for(int j = l; j < r; j++){

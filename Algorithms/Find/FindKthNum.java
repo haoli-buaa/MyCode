@@ -40,6 +40,8 @@ class MinHeap{
 	public void push(int x){
 		if(size < a.length){
 			a[size++] = x;
+			swap(a, 0, size-1);
+			sink(a, 0);
 		}
 		else{
 			a[0] = x;

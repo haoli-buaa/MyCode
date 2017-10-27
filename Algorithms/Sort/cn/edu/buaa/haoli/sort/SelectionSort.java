@@ -1,4 +1,4 @@
-package Sort;
+package cn.edu.buaa.haoli.sort;
 
 public class SelectionSort {
 	public void sort(int[] a){

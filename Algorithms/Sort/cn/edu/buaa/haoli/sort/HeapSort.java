@@ -1,10 +1,10 @@
-package Sort;
-import java.util.Random;
+package cn.edu.buaa.haoli.sort;
+
 import java.util.Scanner;
 
+public class HeapSort {
 
-public class QuickSort {
-
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while(sc.hasNextLine()){
@@ -15,7 +15,7 @@ public class QuickSort {
 			for(int i = 0; i < a.length; i++){
 				a[i] = Integer.parseInt(tmp[i].trim());
 			}
-			qsort(a, 0, a.length-1);
+			hsort(a);
 			for(int i = 0; i < a.length; i++){
 				System.out.printf("%d", a[i]);
 				if(i != a.length-1)
@@ -27,34 +27,33 @@ public class QuickSort {
 		}
 		sc.close();
 	}
-	public static void qsort(int[] a, int l, int r){
-		if(l >= r)
-			return;
-		int p = partition(a,l,r);
-		qsort(a, l, p-1);
-		qsort(a, p+1, r);
+	public static void hsort(int[] a){
+		//construct max heap
+		for(int k = a.length/2; k >= 0; k--){
+			sink(a, k, a.length);
+		}
+		for(int N = a.length-1; N > 0; N--){
+			swap(a, 0, N);
+			sink(a, 0, N);
+		}
 	}
-	public static int partition(int[] a, int l, int r){
-		//randomized
-		double rand = Math.random();
-		int index = (int)(l+(l-r)*rand);
-		swap(a, index, r);
-		
-		int x = a[r];
-		int i = l-1;
-		for(int j = l; j < r; j++){
-			if(a[j] < x){
-				i += 1;
-				swap(a, i, j);
+	public static void sink(int[] a, int k, int N){
+		while(2*k+1 < N){
+			int j = 2*k + 1;
+			if(2*k + 2 < N && a[2*k + 2] > a[2*k + 1])
+				j++;
+			if(a[k] < a[j]){
+				swap(a, k, j);
+				k = j;
+			}
+			else{
+				break;
 			}
 		}
-		swap(a, i+1, r);
-		return i+1;
 	}
 	public static void swap(int[] a, int i, int j){
 		int tmp = a[i];
 		a[i] = a[j];
 		a[j] = tmp;
 	}
-
 }

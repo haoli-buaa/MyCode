@@ -1,4 +1,4 @@
-package Sort;
+package cn.edu.buaa.haoli.sort;
 public class MergeSort{
 	public void mergeSort(int[] a){
 		mSort(a, 0, a.length-1);

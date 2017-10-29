@@ -1,15 +1,11 @@
+package cn.edu.buaa.haoli.dp;
 import java.util.ArrayList;
-import java.util.Queue;
 import java.util.Scanner;
 
 
 public class IntervalMerge {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		while(sc.hasNext()){
 			int m = sc.nextInt();
@@ -25,6 +21,7 @@ public class IntervalMerge {
 			int count = countPoints(res);
 			System.out.println(m+1-count);			
 		}
+		sc.close();
 	}
 	public static int countPoints(ArrayList<Pair> list){
 		int count = 0;
@@ -77,7 +74,7 @@ class Pair implements Comparable<Pair>{
 	}
 
 	public int compareTo(Pair o) {
-		// TODO Auto-generated method stub
+		
 		if(this.left < o.left)
 			return -1;
 		if(this.left > o.left)

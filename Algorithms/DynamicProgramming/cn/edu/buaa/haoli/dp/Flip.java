@@ -1,3 +1,4 @@
+package cn.edu.buaa.haoli.dp;
 import java.util.Scanner;
 
 
@@ -11,6 +12,7 @@ public class Flip {
 		}
 		boolean res = flipArray(a);
 		System.out.println(res);
+		sc.close();
 	}
 	public static boolean flipArray(int[] a){
 		int l = -1;

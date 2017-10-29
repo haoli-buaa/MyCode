@@ -1,3 +1,4 @@
+package cn.edu.buaa.haoli.dp;
 import java.util.Scanner;
 
 public class NadalTest {
@@ -20,6 +21,7 @@ public class NadalTest {
 				count++;
 		}
 		System.out.printf("%.2f%%", count*100.0/a.length());
+		sc.close();
 	}
 	private static boolean similar(char a, char b){
 		if(isChar(a) ^ (b == '0'))

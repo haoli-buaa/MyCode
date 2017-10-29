@@ -1,3 +1,4 @@
+package cn.edu.buaa.haoli.dp;
 import java.util.Scanner;
 
 public class StockPrice {
@@ -20,5 +21,6 @@ public class StockPrice {
 			}
 			System.out.println(p);
 		}
+		sc.close();
 	}
 }

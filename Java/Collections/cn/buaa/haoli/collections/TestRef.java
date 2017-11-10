@@ -1,4 +1,4 @@
-package References;
+package cn.buaa.haoli.collections;
 
 import java.lang.ref.WeakReference;
 

@@ -1,4 +1,4 @@
-package Property;
+package cn.buaa.haoli.collections;
 
 import java.io.*;
 import java.util.Properties;

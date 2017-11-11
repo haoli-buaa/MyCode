@@ -1,4 +1,4 @@
-package Thread;
+package cn.edu.buaa.haoli.thread;
 /**
  * 单例模式：懒汉式+double checking
  * @author li

@@ -1,4 +1,4 @@
-package Thread;
+package cn.edu.buaa.haoli.thread;
 
 public class Web12306 implements Runnable{
 	int total = 50;

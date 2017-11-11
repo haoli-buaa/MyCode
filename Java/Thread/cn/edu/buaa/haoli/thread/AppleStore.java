@@ -1,4 +1,4 @@
-package Thread;
+package cn.edu.buaa.haoli.thread;
 
 public class AppleStore {
 	static int MAX_REPOSITORY = 5;

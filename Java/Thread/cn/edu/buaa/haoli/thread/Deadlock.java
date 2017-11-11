@@ -1,4 +1,4 @@
-package Thread;
+package cn.edu.buaa.haoli.thread;
 
 public class Deadlock implements Runnable{
 	Object goods = new Object();
@@ -17,13 +17,19 @@ public class Deadlock implements Runnable{
 	void test(Object goods, Object money){
 		synchronized(goods){
 			try {
-				Thread.sleep(3000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			System.out.println("货物已交付，等待收款");
-			synchronized(money){				
+			synchronized(money){	
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				System.out.println("收款完毕");
 			}
 		}
@@ -31,12 +37,8 @@ public class Deadlock implements Runnable{
 	public static void main(String[] args){
 		Object goods = new Object();
 		Object money = new Object();
-		Deadlock dl = new Deadlock(goods, money);
-		Auxilary aux = new Auxilary(goods, money);
-		Thread proxy1 = new Thread(dl);
-		Thread proxy2 = new Thread(aux);
-		proxy1.start();
-		proxy2.start();
+		new Thread(new Deadlock(goods, money)).start();
+		new Thread(new Deadlock(money, goods)).start();
 	}
 }
 class Auxilary extends Deadlock{

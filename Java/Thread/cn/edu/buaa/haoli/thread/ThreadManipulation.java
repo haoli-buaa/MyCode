@@ -1,4 +1,4 @@
-package Thread;
+package cn.edu.buaa.haoli.thread;
 
 public class ThreadManipulation {
 	public static void main(String[] args){

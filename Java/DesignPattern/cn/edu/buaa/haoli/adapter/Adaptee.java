@@ -1,10 +1,11 @@
 package cn.edu.buaa.haoli.adapter;
-/*ÊÊÅäÆ÷Ä£Ê½
- * ÀàĞÍ£ºÀàÊÊÅäÆ÷Ä£Ê½
- * ½ÇÉ«£º±»ÊÊÅä¶ÔÏó
- * */
+
+/**
+ * @author li
+ *è¢«è¯•é…ç±»
+ */
 public class Adaptee {
 	public void specificRequest(){
-		System.out.println("ÕâÊÇÒ»¸öÁ½¿×²å×ù");
+		System.out.println("è¿™æ˜¯ä¸€ä¸ªäºŒå­”æ’åº§");
 	}
 }

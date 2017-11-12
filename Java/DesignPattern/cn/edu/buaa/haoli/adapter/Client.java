@@ -1,11 +1,15 @@
 package cn.edu.buaa.haoli.adapter;
 
+/**
+ * @author li
+ *
+ */
 public class Client {
 	public static void main(String[] args) {		
-		//类适配器模式
+		//缁ф壙
 		Target tar = new Adapter();
 		tar.request();
-		//对象适配器模式
+		//缁勫悎
 		Adaptee adat = new Adaptee();
 		Target target = new AdapterObject(adat);
 		target.request();

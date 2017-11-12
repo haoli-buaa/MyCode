@@ -1,8 +1,9 @@
 package cn.edu.buaa.haoli.adapter;
-/*ÊÊÅäÆ÷Ä£Ê½
- * ÀàĞÍ£º¶ÔÏóÊÊÅäÆ÷Ä£Ê½
- * ÌØµã£º×éºÏ¹ØÏµ
- * */
+
+/**
+ * @author li
+ *ç»„åˆå®ç°é€‚é…å™¨æ¨¡å¼
+ */
 public class AdapterObject implements Target{
 	private Adaptee adaptee;
 	public AdapterObject(Adaptee adaptee){
@@ -11,7 +12,7 @@ public class AdapterObject implements Target{
 	@Override
 	public void request() {
 		adaptee.specificRequest();
-		System.out.println("ĞèÒªÒ»¸öÈı¿×²å×ù£¬ÒÑ×ª»»");
+		System.out.println("ä»¥ç»„åˆæ¨¡å¼è½¬æ¢ä¸ºä¸‰å­”æ’åº§");
 		
 	};	
 }

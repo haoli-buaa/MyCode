@@ -1,14 +1,15 @@
 package cn.edu.buaa.haoli.adapter;
-/*ÊÊÅäÆ÷Ä£Ê½
- * ÀàĞÍ£ºÀàÊÊÅäÆ÷Ä£Ê½
- * ½ÇÉ«£ºÊÊÅäÆ÷
- * */
+
+/**
+ * @author li
+ *é€‚é…å™¨ç±»ï¼Œç»§æ‰¿adapteeç±»ï¼Œå®ç°ç›®æ ‡æ¥å£
+ */
 public class Adapter extends Adaptee implements Target{
 
 	@Override
 	public void request() {
 		super.specificRequest();
-		System.out.println("ĞèÒªÒ»¸öÈı¿×²å×ù,ÒÑ×ª»»");		
+		System.out.println("è½¬æ¢ä¸ºä¸‰å­”æ’åº§");		
 	} 
 
 }

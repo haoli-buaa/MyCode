@@ -41,9 +41,6 @@ public class Sum4 {
 				if (i == offset || nums[i] != nums[i-1]) {
 					List<Integer> now = new ArrayList<Integer>(prev);
 					now.add(nums[i]);
-					//这里的每次循环（i改变）中，prev不应该被改变。
-					//这也是为什么我构造了now 而不是直接改变prev的原因，但是每次执行完下面的句子以后，
-					//prev就变成了now？？？
 					fourSum(nums, i+1, n, depth+1, target - nums[i], now, result);
 				}
 			}
